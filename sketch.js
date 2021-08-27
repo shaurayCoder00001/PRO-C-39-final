@@ -199,11 +199,11 @@ function reset(){
   gameState = PLAY;
   gameOver.visible = false;
   restart.visible = false;
-  kangaroo.visible = false;
+  //kangaroo.visible = false;
   kangaroo.changeAnimation("running",
                kangaroo_running);
-  obstaclesGroup.destroyeach();
-  shrubsGroup.destroyeach();
+  obstaclesGroup.destroyEach();
+  shrubsGroup.destroyEach();
   score = 0;
 }
 
